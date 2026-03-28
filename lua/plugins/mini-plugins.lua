@@ -31,4 +31,8 @@ return {
     -- - sr)'  - [S]urround [R]eplace [)] [']
     'nvim-mini/mini.surround',
   },
+  {
+    'nvim-mini/mini.pairs',
+    opts = { modes = { insert = true } },
+  },
 }
