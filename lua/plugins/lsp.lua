@@ -109,6 +109,12 @@ return {
         basedpyright = {},
         ruff = {},
 
+        -- Typescript & Javascript
+        ts_ls = {},
+
+        -- Astro lsp for .astro files
+        astro = {},
+
         stylua = {}, -- Used to format Lua code
 
         -- Special Lua Config, as recommended by neovim help docs
